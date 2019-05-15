@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #fff;
+    color: #2c2b2b;
+    font-family: 'Lato', sans-serif; 
+    font-size: 22px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 1140px;
+}
+h1{
+    margin-top: 0;
+     color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+header{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/bu.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main-header {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn:link, 
+.btn:visited{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+/*    text-transform: uppercase;*/
+    border-radius: 200px;
+    transition: background-color: 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #f49500;
+    border: 1px solid #f49500;
+}
+.btn-full:hover,
+.btn-full:active{
+    background-color: #c48726;
+}
+
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #f49500;
+    color: #f49500; 
+}
+.btn-ghost:hover,
+.btn-ghost:active{
+ background-color: #f49500;
+ color: #fff;
+}
+
