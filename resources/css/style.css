@@ -25,7 +25,7 @@ h1{
 }
 header{
     height: 100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/bu.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/ROAD-CONSTRUCTION.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -70,3 +70,25 @@ header{
  color: #fff;
 }
 
+
+.logo {
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+.main-navs {
+    float: right;
+    list-style: none;
+    margin-top:30px;
+}
+.main-navs li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-navs li a{
+    font-size: 90%;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
