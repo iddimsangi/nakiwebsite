@@ -14,14 +14,39 @@ html{
 .row{
     max-width: 1140px;
 }
-h1{
-    margin-top: 0;
-     color: #fff;
-    font-size: 40px;
+section{
+    width: 1140px;
+    
+}
+h1,h2,h3{
+  
+    
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 3px;
+   
+}
+h1{
+    font-size: 40px;
+     margin-top: 0;
+     color: #fff;
+     letter-spacing: 1px;
+     word-spacing: 3px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    word-spacing: 2px;
+    margin: 20px 20px;
+}
+h2:after{
+    content: "";
+    height: 2px;
+    width: 100px;
+    color:  #f49500;
+}
+h3{
+    font-size: 25px;
+    display: block;
 }
 header{
     height: 100vh;
@@ -75,6 +100,7 @@ header{
     width: 150px;
     height: auto;
     float: left;
+    margin-left: 40px;
 }
 
 .main-navs {
@@ -85,10 +111,30 @@ header{
 .main-navs li{
     display: inline-block;
     margin-left: 40px;
+   
 }
-.main-navs li a{
+.main-navs li a:link,
+.main-navs li a:visited{
     font-size: 90%;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom:2px solid transparent; 
+    transition: border-bottom:0.2s; 
+}
+.main-navs li a:hover,
+.main-navs li a:active{
+    border-bottom: 2px solid #f49500;
+}
+.icon-big {
+    font-size:50px;
+    display: block;
+    color: #f49500;
+}
+
+.long-copy {
+    letter-spacing: 100%;
+    text-align: center;
+    font-size:20px;
 }
