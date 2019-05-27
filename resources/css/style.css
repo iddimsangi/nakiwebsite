@@ -15,6 +15,11 @@ html{
     max-width: 1140px;
     margin: 0 auto;
 }
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
 section{
   padding: 80px 0;
     
@@ -56,8 +61,9 @@ h3{
 }
 header{
     height: 100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/ROAD-CONSTRUCTION.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)),url(img/bu1.jpeg);
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
 }
 .main-header {
@@ -182,4 +188,46 @@ header{
 .works {
     margin:0;
     padding: 0;
+}
+
+.step div {
+    color:#f49500;
+    padding: 10px;
+    margin-left: 0;
+    height: 55px;
+    width: 55px;
+    border-radius:50%;
+    text-align: center;
+    border: 2px solid #f49500;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.const-app {
+width: 100%;  
+}
+
+
+.step-box:first-child {
+    padding-right: 2%;
+    margin-top: 20px;
+}
+.step-box:last-child{
+    padding-left: 2%;
+    float: left;
+    margin-top: 50px;
+}
+
+.section-steps {
+    background-color: #e5e6df;
+}
+cite{
+    display: block;
+    
+}
+.profile {
+    width: 100px;
+    border-radius: 50%;
+    padding-top: 20px;
 }
