@@ -222,12 +222,41 @@ width: 100%;
 .section-steps {
     background-color: #e5e6df;
 }
+blockquote{
+    color: #fff;
+}
+blockquote:before{
+    font-size: 300%;
+    content:"\00ab";
+     
+}
 cite{
+    
+    position: relative;
     display: block;
     
 }
+cite p{
+    color: #fff;
+    position: absolute;
+    float: right;
+   top: 50px;
+    left: 120px;
+}
 .profile {
     width: 100px;
+    height: auto;
     border-radius: 50%;
-    padding-top: 20px;
+/*    padding-top: 20px;*/
 }
+
+.clients-says {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(img/ROAD-CONSTRUCTION.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.clients-says h2{
+    color: #fff;
+}
+
